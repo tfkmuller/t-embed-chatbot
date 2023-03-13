@@ -30,8 +30,6 @@ OneButton button(PIN_ENCODE_BTN, true);
 APA102<PIN_APA102_DI, PIN_APA102_CLK> ledStrip;
 Audio *audio;
 
-// static const char *ssid = "supertom";
-// static const char *password = "Anamika&Peter";
 
 const char *test_root_ca =
   "-----BEGIN CERTIFICATE-----\n"
