@@ -87,7 +87,7 @@ const char *test_root_ca =
   "-----END CERTIFICATE-----\n";
 
 WiFiClientSecure client;
-ChatGPT<WiFiClientSecure> chat_gpt(&client, "v1", "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");
+ChatGPT<WiFiClientSecure> chat_gpt(&client, "v1", "APIKEY");
 
 TFT_eSPI tft = TFT_eSPI();
 TFT_eSprite img = TFT_eSprite(&tft);
